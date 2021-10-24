@@ -1,2 +1,30 @@
 /* font-family: 'Open Sans', sans-serif;
 font-family: 'Roboto', sans-serif; */
+/* General styles */
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+::before {
+  box-sizing: inherit;
+}
+
+.clearfix::before {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.wrapper {
+  max-width: 1110px;
+  margin: 0 auto;
+}
