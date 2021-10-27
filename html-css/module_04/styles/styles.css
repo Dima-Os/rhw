@@ -156,6 +156,9 @@ a {
 }
 
 /* LATEST NEWS */
+.news {
+  margin-bottom: 20px;
+}
 .news-list-item {
   font-family: "Open Sans", sans-serif;
   float: left;
