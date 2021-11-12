@@ -198,6 +198,9 @@ button {
 .product__list-item {
   float: left;
 }
+.product__list-item:not(:last-child) {
+  margin-right: 30px;
+}
 .product__price-wrp {
   display: block;
   background-color: #323232;
@@ -231,11 +234,11 @@ button {
   position: relative;
   background-clip: padding-box;
 }
-.product__list-img-wrp:hover .img-overlay {
+.product__list-item:hover .img-overlay {
   visibility: visible;
   opacity: 1;
 }
-.product__list-img-wrp:focus .img-overlay {
+.product__list-item:focus .img-overlay {
   visibility: visible;
   opacity: 1;
 }
@@ -286,10 +289,10 @@ button {
   line-height: 32px;
 }
 .actions-btn__list-item:not(:nth-last-child(-n + 2)) {
-  margin-right: 7px;
+  margin-right: 8px;
 }
 .actions-btn__list-item:not(:last-child) {
-  margin-bottom: 7px;
+  margin-bottom: 8px;
 }
 
 .like {
@@ -310,4 +313,18 @@ button {
 .actions-btn__list-item:hover,
 .actions-btn__list-item:focus {
   background-color: var(--highlighted-color);
+}
+/* footer */
+.autor {
+  background-color: rgb(50, 50, 50);
+  text-align: center;
+  font-family: var(--secondary-font);
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  color: var(--light-color);
+  padding: 36px 0 30px 0;
+}
+.author-link {
+  color: var(--highlighted-color);
 }
