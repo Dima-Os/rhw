@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <header class="site-header">
+    <header class="site-header container">
         <nav class="site-navigation">
             <div class="logotype">Golden</div>
             <ul class="navigation-list">
@@ -24,7 +24,54 @@
         </nav>
     </header>
     <main>
-
+        <h1 class="visually-hidden">Home work 07 site</h1>
+        <section class="section services container">
+            <h2 class="section-header">Services</h2>
+            <p class="section-description">Proin iaculis purus consequat sem cure.</p>
+            <ul class="services-list">
+                <li class="services-list__item e-commerce">
+                    <h3 class="services-list__heading ">E-Commerce</h3>
+                    <p class="services-list__description">Proin iaculis purus consequat sem cure
+                        digni ssim. Donec porttitora entum suscipit
+                        aenean rhoncus posuere odio in tincidunt.</p>
+                </li>
+                <li class="services-list__item resp-web">
+                    <h3 class="services-list__heading ">Responsive Web</h3>
+                    <p class="services-list__description">Proin iaculis purus consequat sem cure
+                        digni ssim. Donec porttitora entum suscipit
+                        aenean rhoncus posuere odio in tincidunt.</p>
+                </li>
+                <li class="services-list__item web-security ">
+                    <h3 class="services-list__heading ">Web Security</h3>
+                    <p class="services-list__description">Proin iaculis purus consequat sem cure
+                        digni ssim. Donec porttitora entum suscipit
+                        aenean rhoncus posuere odio in tincidunt.</p>
+                </li>
+            </ul>
+        </section>
+        <section class="section contact-us">
+            <div class="container">
+                <h2 class="section-header">Contact Us</h2>
+                <p class="section-description">Proin iaculis purus consequat sem cure.</p>
+                <form class="contact-us-form" action="#">
+                    <div class="inputs-wrapper">
+                        <ul class="inputs-list">
+                            <li class="inputs-list__item">
+                                <input name='user-name' minlength="2" required type="text" placeholder="Your name *">
+                            </li>
+                            <li class="inputs-list__item">
+                                <input name='user-email' required required type='email' placeholder="Your e-mail *">
+                            </li>
+                            <li class="inputs-list__item">
+                                <input name='subject' placeholder="Subject">
+                            </li>
+                        </ul>
+                        <textarea minlength="10" name="user-message" required id="" placeholder="Your message *"></textarea>
+                    </div>
+                    <button class="submit-btn" type="submit">Send message</button>
+                </form>
+            </div>
+        </section>
     </main>
 
 </body>
