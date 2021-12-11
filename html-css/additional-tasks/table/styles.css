@@ -1,0 +1,40 @@
+html {
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+}
+table {
+  border-collapse: collapse;
+  border: 2px solid #444;
+}
+body {
+  padding-top: 20px;
+}
+.barbershops-price {
+  font-size: 18px;
+  box-shadow: 5px 5px 5px 5px #ccc;
+  margin-bottom: 20px;
+}
+.barbershops-price__caption {
+  padding: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.barbershops-price__head {
+  color: #fff;
+  background-color: #444;
+}
+
+td {
+  border: 2px solid #444;
+  text-align: center;
+}
