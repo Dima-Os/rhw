@@ -54,6 +54,7 @@ aside,
 article {
   border: 3px solid #444;
 }
+<<<<<<< HEAD
 
 picture {
   display: block;
@@ -61,3 +62,5 @@ picture {
   height: auto;
   margin: 0 auto;
 }
+=======
+>>>>>>> 2a1c01b3d02bb2ccf0b7eab879077bc71cb3efc9
